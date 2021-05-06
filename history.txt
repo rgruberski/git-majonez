@@ -1,0 +1,24 @@
+ 1962  mkdir git-majonez
+ 1963  cd git-majonez/
+ 1964  git init
+ 1965  subl main.cpp
+ 1966  git add main.cpp
+ 1967  git commit -m "Initial commit"
+ 1968  git add main.cpp
+ 1969  git commit -m "Farewell changed"
+ 1970  git remote add origin git@github.com:rgruberski/git-majonez.git
+ 1971  git push -u origin master
+ 1972  git checkout -b cs
+ 1973  git branch
+ 1974  git log
+ 1975  git reset --soft HEAD~1
+ 1976  git log
+ 1977  git add main.cpp
+ 1978  git commit -m "Greetings"
+ 1979  git push origin cs
+ 1980  git checkout master
+ 1981  git merge cs
+ 1982  git add main.cpp
+ 1983  git status
+ 1984  git commit
+ 1985  git log
