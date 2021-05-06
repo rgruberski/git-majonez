@@ -1,7 +1,7 @@
  1962  mkdir git-majonez
  1963  cd git-majonez/
  1964  git init
- 1965  subl main.cpp
+ 1965  touch main.cpp
  1966  git add main.cpp
  1967  git commit -m "Initial commit"
  1968  git add main.cpp
